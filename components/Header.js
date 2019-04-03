@@ -8,10 +8,10 @@ const Header = (props) => (
         <img src="/static/icon-dark.png" alt="Tao Team Icon"/>
       </a>
     </Link>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.271 11.074" onClick={props.onMenuOpen}>
-      <g id="hamburger" data-name="hamburger" transform="translate(-313.729 -46)">
-        <line id="Line_1" data-name="Line 1" x2="33.271" transform="translate(313.729 47)" fill="none" strokeWidth="2" />
-        <line id="Line_2" data-name="Line 2" x2="33.271" transform="translate(313.729 56.074)" fill="none" strokeWidth="2" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-10 -10 20 20" onClick={props.onMenuOpen}>
+      <g id="hamburger" data-name="hamburger">
+        <line id="hamburger-top" x1="-15" x2="15" y1="3" y2="3" stroke-width="1.5" />
+        <line id="hamburger-bottom" x1="-15" x2="15" y1="-3" y2="-3" stroke-width="1.5" />
       </g>
     </svg>
     <style jsx>{`
