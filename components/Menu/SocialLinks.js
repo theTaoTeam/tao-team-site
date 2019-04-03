@@ -17,7 +17,7 @@ const SocialLinks = (props) => (
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 60px;
+        width: 65px;
         position: absolute;
         bottom: 10vh;
         right: 5vw;
