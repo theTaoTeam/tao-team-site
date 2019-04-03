@@ -1,10 +1,10 @@
-import NavLinks from './NavLinks'
+import NavLinkList from './NavLinkList'
 import SocialLinks from './SocialLinks'
 import { colors, fonts, viewport } from '../../styles/constants'
 
 const Menu = (props) => (
   <div className="menu">
-    <NavLinks />
+    <NavLinkList />
     <SocialLinks />
     <style jsx>{`
       .menu {

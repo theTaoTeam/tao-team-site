@@ -2,7 +2,7 @@ import {Fragment} from 'react'
 import Link from 'next/link'
 import {colors} from '../../styles/constants'
 
-const MenuItem = (props) => (
+const NavLink = (props) => (
   <Fragment>
     <Link href={props.route}>
       <a>{props.title}</a>
@@ -32,4 +32,4 @@ const MenuItem = (props) => (
   </Fragment>
 )
 
-export default MenuItem
+export default NavLink
