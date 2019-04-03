@@ -1,7 +1,7 @@
 import withLayout from '../components/Layout'
 
 const Index = () => (
-  <h1>Hello World</h1>
+  <h1>Index</h1>
 )
 
 export default withLayout(Index)
